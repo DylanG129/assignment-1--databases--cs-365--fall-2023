@@ -1,0 +1,52 @@
+{
+    "student": {
+        "name": {
+            "firstname": "Gordon",
+            "middlename": "Matthew",
+            "lastname": "Sumner",
+            "preferredname": "Sting"
+        },
+        "personal-info": {
+            "email": "sting@thepolice.com",
+            "phone": "212.123.4567"
+        },
+        "school-info": {
+            "@status": "full time",
+            "@grade": "first year",
+            "student-id": "1234567",
+            "major": "Music",
+            "minor": "English",
+            "gpa": "4.0",
+            "advisor": "Andy Summers"
+        },
+        "date": {
+            "date-of-enrollment": "08-25-1969",
+            "graduation": "05-01-1973"
+        },
+
+        "name": {
+            "firstname": "Kim",
+            "middlename": "",
+            "lastname": "Thayil",
+            "preferredname": "n/a"
+        },
+        "personal-info": {
+            "email": "kim@soundgarden",
+            "phone": "206.123.4567"
+        },
+        "school-info": {
+            "@status": "full time",
+            "@grade": "second year",
+            "student-id": "4567890",
+            "major": "Philosophy",
+            "minor": "Music",
+            "gpa": "3.0",
+            "advisor": "Chris Cornell"
+        },
+        "date": {
+            "date-of-enrollment": "08-25-1978",
+            "graduation": "05-01-1982"
+        }
+    }
+
+}

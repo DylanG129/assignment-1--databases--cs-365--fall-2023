@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,500;1,6..12,200;1,6..12,500&display=swap');
+
+name {
+  display: block;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+personal-info {
+  display: block;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+school-info {
+  display: block;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+date {
+  display: block;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+student {
+  display: block;
+  margin-bottom: 20px;
+  border: 5px solid black;
+  padding: 10px;
+}
+
+name:before {
+  content: "Name:";
+}
+
+firstname:after middlename:after lastname:after {
+  content: ",";
+}
+
+preferredname:before {
+  content: "\a Preferred Name: ";
+  white-space: pre;
+}
+
+personal-info:before {
+  content: "\a Personal Information: ";
+}
+
+email:before {
+  content: "\a Email: ";
+  white-space: pre;
+}
+
+phone:before {
+  content:"\a Phone Number: ";
+  white-space: pre;
+}
+
+school-info:before {
+  content: "School Information:";
+}
+
+student-id:before {
+  content: "\a Student ID: ";
+  white-space: pre;
+
+}
+
+status:before {
+  content: "\a School Status: ";
+  white-space: pre;
+}
+
+grade:before {
+  content: "\a Grade: ";
+  white-space: pre;
+}
+
+major:before {
+  content: "\a Major: ";
+  white-space: pre;
+}
+
+minor:before {
+  content: "\a Minor: ";
+  white-space: pre;
+}
+
+gpa:before {
+  content: "\a GPA: ";
+  white-space: pre;
+}
+
+advisor:before {
+  content: "\a Advisor: ";
+  white-space: pre;
+}
+
+date-of-enrollment:before {
+  content: "\a Date of Enrollment: ";
+}
+
+graduation:before {
+  content: "\a Estimate Graduation: ";
+  white-space: pre;
+}
+
+:root::before {
+  content: 'University Students';
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 24px 0;
+}

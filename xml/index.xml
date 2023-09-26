@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="..\xml\css\style.css"?>
+<!DOCTYPE student-archive SYSTEM "..\xml\dtd\student.dtd" [
+<!ENTITY pop "University">
+]>
+<student-archive>
+    <student num = "1">
+        <name>
+            <firstname>Gordon</firstname>
+            <middlename>Matthew</middlename>
+            <lastname>Sumner</lastname>
+            <preferredname>Sting</preferredname>
+        </name>
+        <personal-info>
+            <email>sting@thepolice.com</email>
+            <phone>212.123.4567</phone>
+        </personal-info>
+        <school-info status="full-time" grade="first-year">
+            <student-id>1234567</student-id>
+            <major>Music</major>
+            <minor>English</minor>
+            <gpa>4.0</gpa>
+            <advisor>Andy Summers</advisor>
+        </school-info>
+        <date>
+            <date-of-enrollment>08-25-1969</date-of-enrollment>
+            <graduation>05-01-1973</graduation>
+        </date>
+    </student>
+
+    <student num="2">
+        <name>
+            <firstname>Kim</firstname>
+            <middlename></middlename>
+            <lastname>Thayil</lastname>
+            <preferredname>n/a</preferredname>
+        </name>
+        <personal-info>
+            <email>kim@soundgarden</email>
+            <phone>206.123.4567</phone>
+        </personal-info>
+        <school-info status="full-time" grade="second-year">
+            <student-id>567890</student-id>
+            <major>Philosophy</major>
+            <minor>Music</minor>
+            <gpa>3.0</gpa>
+            <advisor>Chris Cornell</advisor>
+        </school-info>
+        <date>
+            <date-of-enrollment>08-25-1983</date-of-enrollment>
+            <graduation>05-01-1982</graduation>
+        </date>
+    </student>
+</student-archive>

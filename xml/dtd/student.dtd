@@ -1,0 +1,59 @@
+<!--
+    The root element: student-archive
+
+    The student-archive container (root) element must have one or more
+    student elements.
+-->
+<!ELEMENT student-archive (student)+>
+<!-- 
+The student container element must contain one name container, one personal-info
+container, one school-info containor and one date container.
+-->
+<!ELEMENT student (name,personal-info,school-info,date)>
+<!-- 
+The name container element must contain one firstname, one middlename, one lastname
+and one preferredname.
+-->
+<!ELEMENT name (firstname,middlename,lastname,preferredname)>
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT middlename (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>
+<!ELEMENT preferredname (#PCDATA)>
+<!-- 
+The personal-info container element must contain one email and one phone.
+-->
+<!ELEMENT personal-info (email,phone)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!-- 
+The school-info container element must contain one student-id, one major, one minor,
+one gpa and one advisor.
+-->
+<!ELEMENT school-info (student-id,major,minor,gpa,advisor)>
+<!ELEMENT student-id (#PCDATA)>
+<!ELEMENT major (#PCDATA)>
+<!ELEMENT minor (#PCDATA)>
+<!ELEMENT gpa (#PCDATA)>
+<!ELEMENT advisor (#PCDATA)>
+<!-- 
+The date container element must contain one date-of-enrollment and one
+graduation. 
+-->
+<!ELEMENT date (date-of-enrollment,graduation)>
+<!ELEMENT date-of-enrollment (#PCDATA)>
+<!ELEMENT graduation (#PCDATA)>
+
+<!ATTLIST student
+        num CDATA #REQUIRED>
+<!-- 
+attributed to the school-info container is status and grade.
+
+status must be either full-time, part-time, graduated or withdrawn.
+
+grade must be either first-year, second-year, third-year or fourth-year.
+-->
+<!ATTLIST school-info
+        status (full-time|part-time|graduated|withdrawn) #REQUIRED>
+
+<!ATTLIST school-info
+        grade (first-year|second-year|third-year|fourth-year) #REQUIRED>
